@@ -23,6 +23,7 @@ This repository serves as:
 ## Code Examples
 
 - [x] `Typescript Variable :` [Variable](https://github.com/koushik-chowdhury/typescript/tree/master/variable)
+- [x] `Function :` [Function](https://github.com/koushik-chowdhury/typescript/tree/master/function)
 
 
 <hr>
