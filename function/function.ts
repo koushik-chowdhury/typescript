@@ -44,4 +44,44 @@ let loginUser = (name: string, email: string, isPaid: boolean = false) => {
 }
 let logUser = loginUser('koushik', 'csakoushik@gmail.com')
 console.log(logUser)
+
+// Function that takes a number and returns a string (but should return a number)
+
+function addition(num: number) {
+    return `Hello i am string`
+}
+console.log(addition(2)) // expect return number
+
+// corrected version
+
+function Addition(num: number): number {
+    return num + 5
+}
+
+console.log(Addition(10))
+
+// function type in arrow function
+
+const helloWorld = (s: string): string => {
+    return "Koushik Chowdhury"
+}
+
+// const heros = ['thor','spiderman','ironman']
+const heros = [1,2,3]
+
+heros.map(hero=>{
+    return `Hero is ${hero}`
+})
+
+// another type of function
+
+function consoleError(errmsg:string):void{
+    console.log(errmsg)
+}
+consoleError("hello")
+
+function handleError(errmsg:string):never{
+    throw new Error(errmsg)
+}
+
 export { }
